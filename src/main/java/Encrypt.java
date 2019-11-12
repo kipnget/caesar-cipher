@@ -20,6 +20,7 @@ public class Encrypt {
             char newChar = getMName().charAt(i);
             char toShiftedLetter = (char) (newChar + getMkey());
             result  += toShiftedLetter;
+
         }
         return result;
     }
